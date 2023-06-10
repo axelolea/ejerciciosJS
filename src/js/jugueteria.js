@@ -10,6 +10,7 @@ function calcularPeso(unidades, pesoPorUnidad){
     return pesoCalculado
 }
 
+
 function calcularPesoTotal(nPayasos = 0, nMunnecas = 0){
 
     const pesoTotalPayasos = calcularPeso(nPayasos, pesoPayaso)
